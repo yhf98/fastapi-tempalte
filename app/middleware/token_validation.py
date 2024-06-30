@@ -1,3 +1,4 @@
+import re
 from fastapi import Request, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from starlette.middleware.base import BaseHTTPMiddleware
@@ -11,12 +12,18 @@ from app.schemas.response import ResponseModel
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 class TokenValidationMiddleware(BaseHTTPMiddleware):
-    def __init__(self, app, exempt_routes: list):
+    # def __init__(self, app, exempt_routes: list):
+    #     super().__init__(app)
+    #     self.exempt_routes = exempt_routes
+    def __init__(self, app, exempt_routes=None):
         super().__init__(app)
-        self.exempt_routes = exempt_routes
+        self.exempt_routes = exempt_routes or []
+        
 
     async def dispatch(self, request: Request, call_next):
-        if request.url.path in self.exempt_routes:
+        # if request.url.path in self.exempt_routes:
+        #     return await call_next(request)
+        if self._is_exempt(request):
             return await call_next(request)
         
         token = request.headers.get("Authorization")
@@ -48,3 +55,12 @@ class TokenValidationMiddleware(BaseHTTPMiddleware):
 
         response = await call_next(request)
         return response
+    def _is_exempt(self, request: Request):
+        path = request.url.path
+        query = request.url.query
+        full_path = f"{path}?{query}" if query else path
+
+        for exempt_path in self.exempt_routes:
+            if re.match(exempt_path, full_path):
+                return True
+        return False

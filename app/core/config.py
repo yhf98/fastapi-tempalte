@@ -1,5 +1,5 @@
-# from pydantic_settings import BaseSettings # 3.10
-from pydantic import BaseSettings # 3.9
+from pydantic_settings import BaseSettings # 3.10
+# from pydantic import BaseSettings # 3.9
 
 class Settings(BaseSettings):
     DB_USER: str

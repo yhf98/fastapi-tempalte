@@ -14,8 +14,24 @@ app = FastAPI(
 )
 
 app.include_router(api_router, prefix="/api/v1")
-exempt_routes = ["/favicon.ico", "/api/v1/users/register",
-                 "/api/v1/users/login", "/docs", "/docs/", "/openapi.json", "/redoc"]
+# exempt_routes = ["/favicon.ico", "/api/v1/users/register",
+#                  "/api/v1/users/login", "/docs", "/docs/", "/openapi.json", "/redoc", "/api/v1/logs/test", "/api/v1/logs/publish", "/v1/apis/validate_key"]
+exempt_routes = [
+    r"/favicon\.ico",
+    r"/api/v1/users/register",
+    r"/api/v1/users/login",
+    r"/docs",
+    r"/docs/",
+    r"/openapi\.json",
+    r"/redoc",
+    r"/api/v1/logs/test",
+    r"/api/v1/logs/publish",
+    r"/api/v1/apis/validate_key.*"
+]
+
+# app.add_middleware(TokenValidationMiddleware, exempt_routes=exempt_routes)
+
+app.add_middleware(TokenValidationMiddleware, exempt_routes=exempt_routes)
 
 # 注册全局异常处理器
 app.add_exception_handler(Exception, custom_exception_handler)
@@ -23,6 +39,7 @@ app.add_exception_handler(Exception, custom_exception_handler)
 # 添加日志中间件
 app.add_middleware(RequestLoggingMiddleware)
 # 添加Token验证中间件
+
 app.add_middleware(TokenValidationMiddleware, exempt_routes=exempt_routes)
 
 # 添加CORS中间件

@@ -35,7 +35,7 @@ pip download -r requirements.txt -d wheelhouse
 ## 打包镜像
 ```bash
 docker build -t fastapi-template .
-docker run -p 8000:8000 fastapi-template
+docker run -p 9527:9527 fastapi-template
 ```
 
 ## 代码生成工具

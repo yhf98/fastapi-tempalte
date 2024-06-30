@@ -99,3 +99,112 @@ Traceback (most recent call last):
     version = _bcrypt.__about__.__version__
 AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-07-01 00:15:06,758 - root - INFO - Response: 200
+2024-07-01 01:07:08,453 - root - INFO - 服务启动...
+2024-07-01 01:07:11,924 - root - INFO - Request: GET http://127.0.0.1:9527/docs
+2024-07-01 01:07:11,924 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:07:11,926 - root - INFO - Params: 
+2024-07-01 01:07:11,927 - root - INFO - Body: b''
+2024-07-01 01:07:11,928 - root - INFO - Response: 200
+2024-07-01 01:07:12,438 - root - INFO - Request: GET http://127.0.0.1:9527/openapi.json
+2024-07-01 01:07:12,439 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:07:12,440 - root - INFO - Params: 
+2024-07-01 01:07:12,441 - root - INFO - Body: b''
+2024-07-01 01:07:12,470 - root - INFO - Response: 200
+2024-07-01 01:08:17,381 - root - INFO - 服务启动...
+2024-07-01 01:08:19,531 - root - INFO - Request: GET http://127.0.0.1:9527/docs
+2024-07-01 01:08:19,533 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:08:19,534 - root - INFO - Params: 
+2024-07-01 01:08:19,535 - root - INFO - Body: b''
+2024-07-01 01:08:19,537 - root - INFO - Response: 200
+2024-07-01 01:08:19,860 - root - INFO - Request: GET http://127.0.0.1:9527/openapi.json
+2024-07-01 01:08:19,861 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:08:19,862 - root - INFO - Params: 
+2024-07-01 01:08:19,864 - root - INFO - Body: b''
+2024-07-01 01:08:19,896 - root - INFO - Response: 200
+2024-07-01 01:09:57,526 - root - INFO - 服务启动...
+2024-07-01 01:09:59,537 - root - INFO - Request: GET http://127.0.0.1:9527/docs
+2024-07-01 01:09:59,538 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:09:59,540 - root - INFO - Params: 
+2024-07-01 01:09:59,541 - root - INFO - Body: b''
+2024-07-01 01:09:59,542 - root - INFO - Response: 200
+2024-07-01 01:10:00,023 - root - INFO - Request: GET http://127.0.0.1:9527/openapi.json
+2024-07-01 01:10:00,024 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:10:00,025 - root - INFO - Params: 
+2024-07-01 01:10:00,026 - root - INFO - Body: b''
+2024-07-01 01:10:00,044 - root - INFO - Response: 200
+2024-07-01 01:10:36,375 - root - INFO - 服务启动...
+2024-07-01 01:13:03,459 - root - INFO - 服务启动...
+2024-07-01 01:14:59,888 - root - INFO - 服务启动...
+2024-07-01 01:15:16,788 - root - INFO - 服务启动...
+2024-07-01 01:15:24,755 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:15:24,756 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:15:24,757 - root - INFO - Params: 
+2024-07-01 01:15:24,758 - root - INFO - Body: b''
+2024-07-01 01:15:24,759 - root - INFO - Response: 200
+2024-07-01 01:15:25,830 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:15:25,831 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:15:25,832 - root - INFO - Params: 
+2024-07-01 01:15:25,834 - root - INFO - Body: b''
+2024-07-01 01:15:25,834 - root - INFO - Response: 200
+2024-07-01 01:15:26,003 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:15:26,004 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:15:26,005 - root - INFO - Params: 
+2024-07-01 01:15:26,006 - root - INFO - Body: b''
+2024-07-01 01:15:26,007 - root - INFO - Response: 200
+2024-07-01 01:15:41,130 - root - INFO - 服务启动...
+2024-07-01 01:15:45,693 - root - INFO - Request: GET http://127.0.0.1:9527/docs
+2024-07-01 01:15:45,694 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:15:45,695 - root - INFO - Params: 
+2024-07-01 01:15:45,696 - root - INFO - Body: b''
+2024-07-01 01:15:45,697 - root - INFO - Response: 200
+2024-07-01 01:15:46,171 - root - INFO - Request: GET http://127.0.0.1:9527/openapi.json
+2024-07-01 01:15:46,172 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:15:46,173 - root - INFO - Params: 
+2024-07-01 01:15:46,174 - root - INFO - Body: b''
+2024-07-01 01:15:46,201 - root - INFO - Response: 200
+2024-07-01 01:18:34,855 - root - INFO - 服务启动...
+2024-07-01 01:20:34,031 - root - INFO - 服务启动...
+2024-07-01 01:22:17,262 - root - INFO - 服务启动...
+2024-07-01 01:22:20,977 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:22:20,978 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:22:20,979 - root - INFO - Params: 
+2024-07-01 01:22:20,979 - root - INFO - Body: b''
+2024-07-01 01:22:20,980 - root - INFO - Response: 200
+2024-07-01 01:22:59,161 - root - INFO - 服务启动...
+2024-07-01 01:25:00,140 - root - INFO - 服务启动...
+2024-07-01 01:25:21,534 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:25:21,535 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:25:21,537 - root - INFO - Params: 
+2024-07-01 01:25:21,538 - root - INFO - Body: b''
+2024-07-01 01:25:21,539 - root - INFO - Response: 200
+2024-07-01 01:26:31,667 - root - INFO - 服务启动...
+2024-07-01 01:26:34,804 - root - INFO - Request: GET http://127.0.0.1:9527/docs
+2024-07-01 01:26:34,805 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:26:34,806 - root - INFO - Params: 
+2024-07-01 01:26:34,806 - root - INFO - Body: b''
+2024-07-01 01:26:34,807 - root - INFO - Response: 200
+2024-07-01 01:26:35,111 - root - INFO - Request: GET http://127.0.0.1:9527/openapi.json
+2024-07-01 01:26:35,112 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json,*/*', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:26:35,113 - root - INFO - Params: 
+2024-07-01 01:26:35,114 - root - INFO - Body: b''
+2024-07-01 01:26:35,129 - root - INFO - Response: 200
+2024-07-01 01:30:55,334 - root - INFO - 服务启动...
+2024-07-01 01:34:13,249 - root - INFO - 服务启动...
+2024-07-01 01:36:45,221 - root - INFO - 服务启动...
+2024-07-01 01:39:01,325 - root - INFO - 服务启动...
+2024-07-01 01:41:23,525 - root - INFO - 服务启动...
+2024-07-01 01:41:26,445 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/apis/validate_key?key=123123
+2024-07-01 01:41:26,446 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:41:26,447 - root - INFO - Params: key=123123
+2024-07-01 01:41:26,448 - root - INFO - Body: b''
+2024-07-01 01:41:26,449 - root - INFO - Response: 403
+2024-07-01 01:41:40,344 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/apis/validate_key?key=123456
+2024-07-01 01:41:40,344 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:41:40,345 - root - INFO - Params: key=123456
+2024-07-01 01:41:40,346 - root - INFO - Body: b''
+2024-07-01 01:41:40,347 - root - INFO - Response: 200
+2024-07-01 01:41:51,573 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/logs/test
+2024-07-01 01:41:51,574 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-07-01 01:41:51,575 - root - INFO - Params: 
+2024-07-01 01:41:51,576 - root - INFO - Body: b''
+2024-07-01 01:41:51,578 - root - INFO - Response: 200
