@@ -1,0 +1,467 @@
+2024-06-30 21:58:03,659 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 21:58:45,116 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:11:20,066 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:11:32,320 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:12:35,730 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:13:07,420 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:13:10,514 - root - INFO - 锟斤拷锟斤拷: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:13:10,515 - root - INFO - Headers: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '457abce6-326c-40af-aece-e6e8329d661d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:13:10,515 - root - INFO - Query Parameters: 
+2024-06-30 22:13:10,516 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:13:10,586 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:13:10,847 - root - INFO - 锟斤拷应: 200
+2024-06-30 22:15:02,070 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:15:05,142 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:15:05,143 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'f869ecab-bd91-46ba-8675-18b02f3249a2', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:15:05,143 - root - INFO - Params: 
+2024-06-30 22:15:05,144 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:15:05,175 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:15:05,413 - root - INFO - Response: 200
+2024-06-30 22:16:23,171 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 22:16:23,171 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzU3ODA1fQ._B3Tg0G2GyRElKfw0hKX2HUqSotBUKNhPLt0MNXwGYk', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '0f3abedf-8314-49a8-96d1-047d56a8a636', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '307'})
+2024-06-30 22:16:23,172 - root - INFO - Params: 
+2024-06-30 22:16:23,172 - root - INFO - Body: b'{\r\n  "name": "123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 22:17:15,969 - root - INFO - 锟斤拷锟斤拷锟斤拷锟斤拷...
+2024-06-30 22:17:18,590 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 22:17:18,590 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzU3ODA1fQ._B3Tg0G2GyRElKfw0hKX2HUqSotBUKNhPLt0MNXwGYk', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'c8cc0c64-dd6c-486b-a16c-d37d9befcfcc', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '307'})
+2024-06-30 22:17:18,591 - root - INFO - Params: 
+2024-06-30 22:17:18,591 - root - INFO - Body: b'{\r\n  "name": "123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 22:17:18,606 - root - INFO - Response: 200
+2024-06-30 22:34:03,108 - root - INFO - 服务启动...
+2024-06-30 22:40:12,004 - root - INFO - 服务启动...
+2024-06-30 22:42:04,764 - root - INFO - 服务启动...
+2024-06-30 22:43:30,418 - root - INFO - 服务启动...
+2024-06-30 22:45:27,453 - root - INFO - 服务启动...
+2024-06-30 22:45:46,409 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:45:46,410 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '9531c149-9203-458e-8a8e-7e49e72704a9', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:45:46,411 - root - INFO - Params: 
+2024-06-30 22:45:46,412 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:45:46,449 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:47:40,453 - root - INFO - 服务启动...
+2024-06-30 22:47:44,316 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:47:44,317 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '7467f0bc-7eae-4d91-b468-e5795b18c6e6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:47:44,317 - root - INFO - Params: 
+2024-06-30 22:47:44,317 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:47:44,334 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:47:44,551 - root - INFO - Response: 200
+2024-06-30 22:47:54,639 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:47:54,639 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '6c0cc3b6-8c38-4e77-89b1-4aa11e273d37', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '34'})
+2024-06-30 22:47:54,640 - root - INFO - Params: 
+2024-06-30 22:47:54,641 - root - INFO - Body: b'username=kuli&password=12345623423'
+2024-06-30 22:47:54,879 - root - INFO - Response: 400
+2024-06-30 22:50:25,756 - root - INFO - 服务启动...
+2024-06-30 22:50:30,242 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:50:30,242 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'efdeb730-f2a4-46d6-af2e-0898892a3b3b', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '34'})
+2024-06-30 22:50:30,243 - root - INFO - Params: 
+2024-06-30 22:50:30,244 - root - INFO - Body: b'username=kuli&password=12345623423'
+2024-06-30 22:50:30,274 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:50:30,492 - root - INFO - Response: 200
+2024-06-30 22:50:40,365 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:50:40,366 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '80cfb136-3f9f-49f7-ae3d-ae436cf335ef', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:50:40,366 - root - INFO - Params: 
+2024-06-30 22:50:40,367 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:51:40,103 - root - INFO - 服务启动...
+2024-06-30 22:51:47,743 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:51:47,744 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'fcbe61f5-589a-49f6-b2f3-b4656a9617e6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:51:47,744 - root - INFO - Params: 
+2024-06-30 22:51:47,745 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:51:47,768 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:57:34,851 - root - INFO - 服务启动...
+2024-06-30 22:57:40,834 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:57:40,835 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '1872613f-0cac-4fdf-9a19-74001b2ab979', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:57:40,836 - root - INFO - Params: 
+2024-06-30 22:57:40,838 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:57:40,879 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:57:41,109 - root - ERROR - Exception: division by zero
+2024-06-30 22:58:03,010 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:58:03,010 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '006c2650-92a6-43ef-a926-72cbe51c31a3', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:58:03,010 - root - INFO - Params: 
+2024-06-30 22:58:03,011 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:58:03,224 - root - ERROR - Exception: division by zero
+2024-06-30 22:58:04,912 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:58:04,912 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '0be0a3ab-5fd8-4f4d-a794-81c93bdb8f65', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:58:04,912 - root - INFO - Params: 
+2024-06-30 22:58:04,913 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:58:05,124 - root - ERROR - Exception: division by zero
+2024-06-30 22:58:06,940 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:58:06,940 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '3d758b5c-d5c5-4770-9e8a-93e8636e9e16', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:58:06,940 - root - INFO - Params: 
+2024-06-30 22:58:06,941 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:58:07,195 - root - ERROR - Exception: division by zero
+2024-06-30 22:58:09,230 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:58:09,230 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'e7be83b2-a341-4df6-8b30-0829ae4e95a6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:58:09,230 - root - INFO - Params: 
+2024-06-30 22:58:09,231 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:58:09,470 - root - ERROR - Exception: division by zero
+2024-06-30 22:59:08,453 - root - INFO - 服务启动...
+2024-06-30 22:59:16,534 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 22:59:16,535 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '29fea30d-0a4c-4210-959c-0f934af7634d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 22:59:16,535 - root - INFO - Params: 
+2024-06-30 22:59:16,536 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 22:59:16,575 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 22:59:16,835 - root - INFO - Response: 200
+2024-06-30 22:59:32,847 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 22:59:32,848 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '11667a0a-6b3c-4dc6-a6ea-9e0f8b22245f', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '307'})
+2024-06-30 22:59:32,848 - root - INFO - Params: 
+2024-06-30 22:59:32,849 - root - INFO - Body: b'{\r\n  "name": "123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 22:59:32,865 - root - INFO - Response: 200
+2024-06-30 23:08:18,940 - root - INFO - 服务启动...
+2024-06-30 23:08:23,512 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:08:23,512 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '5cfbcc69-6f94-43fd-8db7-f8afb46eb038', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '307'})
+2024-06-30 23:08:23,513 - root - INFO - Params: 
+2024-06-30 23:08:23,513 - root - INFO - Body: b'{\r\n  "name": "123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:08:23,527 - root - ERROR - Exception: 2 validation errors:
+  {'type': 'missing', 'loc': ('response', 'code'), 'msg': 'Field required', 'input': <app.models.interface_info.InterfaceInfo object at 0x0000028E96BD9060>}
+  {'type': 'missing', 'loc': ('response', 'message'), 'msg': 'Field required', 'input': <app.models.interface_info.InterfaceInfo object at 0x0000028E96BD9060>}
+
+2024-06-30 23:08:39,887 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:08:39,887 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'b2a22f7b-7d8f-4bae-8aca-3df5ecef1ef2', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:08:39,888 - root - INFO - Params: 
+2024-06-30 23:08:39,888 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:08:39,901 - root - ERROR - Exception: 2 validation errors:
+  {'type': 'missing', 'loc': ('response', 'code'), 'msg': 'Field required', 'input': <app.models.interface_info.InterfaceInfo object at 0x0000028E96D6C730>}
+  {'type': 'missing', 'loc': ('response', 'message'), 'msg': 'Field required', 'input': <app.models.interface_info.InterfaceInfo object at 0x0000028E96D6C730>}
+
+2024-06-30 23:10:10,236 - root - INFO - 服务启动...
+2024-06-30 23:10:13,358 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:10:13,359 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '287ec7c3-dfa5-403a-8399-9e0dcffc3ab8', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:10:13,359 - root - INFO - Params: 
+2024-06-30 23:10:13,360 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:10:13,377 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.interface_info.InterfaceInfo'>
+2024-06-30 23:12:54,806 - root - INFO - 服务启动...
+2024-06-30 23:12:59,134 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:12:59,134 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '2e305b1d-f9f8-4ced-8b48-54028f669bfd', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:12:59,135 - root - INFO - Params: 
+2024-06-30 23:12:59,135 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:12:59,149 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.interface_info.InterfaceInfo'>
+2024-06-30 23:13:08,745 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:13:08,746 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'cc98214c-d7bf-4ec1-8160-531942767ae4', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:13:08,746 - root - INFO - Params: 
+2024-06-30 23:13:08,748 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:13:08,754 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.interface_info.InterfaceInfo'>
+2024-06-30 23:13:24,276 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/user/1
+2024-06-30 23:13:24,277 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '3036bfdb-26d0-4e5e-b979-28bc535495ec', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:13:24,278 - root - INFO - Params: 
+2024-06-30 23:13:24,278 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:13:24,279 - root - INFO - Response: 404
+2024-06-30 23:13:40,045 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:13:40,046 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYwNDU2fQ.GKM3f5gIMgdi-Fo0NIIyB2e98JdBcf4bIlqP4S9WUlE', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '516fd455-3c40-442e-91d7-7a5c9b2d7301', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:13:40,047 - root - INFO - Params: 
+2024-06-30 23:13:40,047 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:13:40,053 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.user.User'>
+2024-06-30 23:16:03,587 - root - INFO - 服务启动...
+2024-06-30 23:16:10,797 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 23:16:10,798 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '0a521035-80bf-4215-b92a-58d59833d8ed', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 23:16:10,798 - root - INFO - Params: 
+2024-06-30 23:16:10,799 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 23:16:10,834 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 23:16:11,092 - root - INFO - Response: 200
+2024-06-30 23:16:22,452 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:16:22,452 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '863dfbb7-677a-4027-a9af-71af48a8075b', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:16:22,453 - root - INFO - Params: 
+2024-06-30 23:16:22,454 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:16:22,463 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.user.User'>
+2024-06-30 23:17:14,862 - root - INFO - 服务启动...
+2024-06-30 23:17:22,547 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:17:22,548 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'd163f5f0-4af9-47fe-9d1c-f97337c1a5f1', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:17:22,549 - root - INFO - Params: 
+2024-06-30 23:17:22,550 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:17:22,556 - root - ERROR - Exception: 'User' object has no attribute 'dict'
+2024-06-30 23:19:19,965 - root - INFO - 服务启动...
+2024-06-30 23:19:22,377 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:19:22,378 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'b9c6a00d-9c16-4a92-ad71-e9844d4b42f4', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:19:22,378 - root - INFO - Params: 
+2024-06-30 23:19:22,379 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:19:22,384 - root - ERROR - Exception: You must set the config attribute `from_attributes=True` to use from_orm
+2024-06-30 23:20:36,660 - root - INFO - 服务启动...
+2024-06-30 23:20:39,051 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:20:39,051 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '2389b327-8db9-40f0-b1bf-3249b7d96139', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:20:39,052 - root - INFO - Params: 
+2024-06-30 23:20:39,053 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:20:39,063 - root - INFO - Response: 200
+2024-06-30 23:21:10,731 - root - INFO - 服务启动...
+2024-06-30 23:21:13,146 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:21:13,146 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'd677888f-2e08-4bad-9547-18cea5cba699', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:21:13,147 - root - INFO - Params: 
+2024-06-30 23:21:13,147 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:21:13,155 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.user.User'>
+2024-06-30 23:26:03,343 - root - INFO - 服务启动...
+2024-06-30 23:26:05,975 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:26:05,976 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '3a4a5ee4-ecb3-4b36-8143-d68d7d01c21b', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:26:05,976 - root - INFO - Params: 
+2024-06-30 23:26:05,977 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:26:05,982 - root - ERROR - Exception: name 'user_data' is not defined
+2024-06-30 23:26:23,436 - root - INFO - 服务启动...
+2024-06-30 23:26:25,894 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:26:25,895 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a5cc79e5-8c44-4724-ab22-9022d2f96ca6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:26:25,895 - root - INFO - Params: 
+2024-06-30 23:26:25,896 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:26:25,904 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.user.User'>
+2024-06-30 23:26:50,450 - root - INFO - 服务启动...
+2024-06-30 23:26:53,071 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:26:53,072 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '65b98fed-453b-4bbd-b1b9-682bbca76032', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:26:53,072 - root - INFO - Params: 
+2024-06-30 23:26:53,072 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:26:53,078 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.user.User'>
+2024-06-30 23:27:25,828 - root - INFO - 服务启动...
+2024-06-30 23:27:27,988 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:27:27,989 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'c410d9ad-41b0-4c82-9819-5031bc687651', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:27:27,989 - root - INFO - Params: 
+2024-06-30 23:27:27,990 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:27:27,995 - root - ERROR - Exception: You must set the config attribute `from_attributes=True` to use from_orm
+2024-06-30 23:27:51,939 - root - INFO - 服务启动...
+2024-06-30 23:27:53,996 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:27:53,997 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '49c90b24-e6e5-4075-ba70-70e8bfe7fcc6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:27:53,997 - root - INFO - Params: 
+2024-06-30 23:27:53,998 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:27:54,003 - root - ERROR - Exception: You must set the config attribute `from_attributes=True` to use from_orm
+2024-06-30 23:28:12,405 - root - INFO - 服务启动...
+2024-06-30 23:28:15,775 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:28:15,775 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '189f68c7-01eb-46fa-9731-6ea146cdb859', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:28:15,776 - root - INFO - Params: 
+2024-06-30 23:28:15,777 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:28:15,782 - root - ERROR - Exception: You must set the config attribute `from_attributes=True` to use from_orm
+2024-06-30 23:28:33,498 - root - INFO - 服务启动...
+2024-06-30 23:28:36,360 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:28:36,360 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '08110f7b-1e45-47ce-b300-b0d01183a5ec', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:28:36,361 - root - INFO - Params: 
+2024-06-30 23:28:36,361 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:28:36,368 - root - INFO - Response: 200
+2024-06-30 23:29:17,437 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/1
+2024-06-30 23:29:17,438 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '7e1826f9-bf1c-4d22-80fe-40a3ce28386b', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:29:17,438 - root - INFO - Params: 
+2024-06-30 23:29:17,439 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:29:17,440 - root - INFO - Response: 405
+2024-06-30 23:29:24,915 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface/1
+2024-06-30 23:29:24,915 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'dc259952-ff2f-41df-a594-5b5b604960f8', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:29:24,916 - root - INFO - Params: 
+2024-06-30 23:29:24,916 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:29:24,918 - root - INFO - Response: 404
+2024-06-30 23:29:29,802 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface
+2024-06-30 23:29:29,802 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a39bb644-dc8d-401f-b735-25655c93560d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:29:29,802 - root - INFO - Params: 
+2024-06-30 23:29:29,803 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:29:29,803 - root - INFO - Response: 404
+2024-06-30 23:29:43,606 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info
+2024-06-30 23:29:43,607 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '1af621a1-18b1-422d-8aab-701243f866e4', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:29:43,607 - root - INFO - Params: 
+2024-06-30 23:29:43,608 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:29:43,609 - root - INFO - Response: 307
+2024-06-30 23:29:43,626 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:29:43,626 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYxNDcxfQ.38VmiVNIDE_LfTgxGfQz2a02nJrX-oejKcf1CJlMBDU', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '1af621a1-18b1-422d-8aab-701243f866e4', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310', 'referer': 'http://127.0.0.1:9527/api/v1/interface_info', 'host': '127.0.0.1:9527'})
+2024-06-30 23:29:43,628 - root - INFO - Params: 
+2024-06-30 23:29:43,628 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:29:43,650 - root - ERROR - Exception: Unable to serialize unknown type: <class 'app.models.interface_info.InterfaceInfo'>
+2024-06-30 23:31:50,552 - root - INFO - 服务启动...
+2024-06-30 23:31:57,463 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 23:31:57,464 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '8b6b7b2d-d20f-4248-b79c-79c7e7fd388d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 23:31:57,464 - root - INFO - Params: 
+2024-06-30 23:31:57,465 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 23:31:57,499 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 23:31:57,757 - root - INFO - Response: 200
+2024-06-30 23:32:09,350 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info
+2024-06-30 23:32:09,350 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'f8546bc3-aaff-4bf9-8ba7-8b0240ad32d8', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:32:09,351 - root - INFO - Params: 
+2024-06-30 23:32:09,351 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:32:09,353 - root - INFO - Response: 307
+2024-06-30 23:32:09,361 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:32:09,362 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'f8546bc3-aaff-4bf9-8ba7-8b0240ad32d8', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310', 'referer': 'http://127.0.0.1:9527/api/v1/interface_info', 'host': '127.0.0.1:9527'})
+2024-06-30 23:32:09,363 - root - INFO - Params: 
+2024-06-30 23:32:09,364 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:32:09,383 - root - INFO - Response: 200
+2024-06-30 23:43:06,156 - root - INFO - 服务启动...
+2024-06-30 23:43:09,323 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info
+2024-06-30 23:43:09,324 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '38c4d718-4bd9-4641-91e2-c1b0b4c7ac14', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:43:09,324 - root - INFO - Params: 
+2024-06-30 23:43:09,326 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:09,326 - root - INFO - Response: 307
+2024-06-30 23:43:09,333 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:43:09,333 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '38c4d718-4bd9-4641-91e2-c1b0b4c7ac14', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310', 'referer': 'http://127.0.0.1:9527/api/v1/interface_info', 'host': '127.0.0.1:9527'})
+2024-06-30 23:43:09,334 - root - INFO - Params: 
+2024-06-30 23:43:09,334 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:09,351 - root - INFO - Response: 200
+2024-06-30 23:43:21,201 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:43:21,201 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'c3ed7647-63d9-48bd-bf5c-7c40cd0fc3de', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:43:21,202 - root - INFO - Params: 
+2024-06-30 23:43:21,203 - root - INFO - Body: b'{\r\n  "name": "123123",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:21,212 - root - INFO - Response: 200
+2024-06-30 23:43:35,834 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:43:35,834 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'ef5a45ea-4b14-4f4e-979d-6ed713f07980', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '316'})
+2024-06-30 23:43:35,835 - root - INFO - Params: 
+2024-06-30 23:43:35,835 - root - INFO - Body: b'{\r\n  "name": "111111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:35,836 - root - INFO - Response: 405
+2024-06-30 23:43:42,244 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:43:42,244 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a36123ed-ee2f-4824-8da9-52b597326bd0', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '316'})
+2024-06-30 23:43:42,245 - root - INFO - Params: 
+2024-06-30 23:43:42,245 - root - INFO - Body: b'{\r\n  "name": "111111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:42,259 - root - INFO - Response: 200
+2024-06-30 23:43:47,739 - root - INFO - Request: DELETE http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:43:47,739 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'e845dbc6-2c56-444e-9718-750ec48974fa', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '316'})
+2024-06-30 23:43:47,740 - root - INFO - Params: 
+2024-06-30 23:43:47,740 - root - INFO - Body: b'{\r\n  "name": "111111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:47,750 - root - INFO - Response: 200
+2024-06-30 23:43:50,821 - root - INFO - Request: DELETE http://127.0.0.1:9527/api/v1/interface_info/1
+2024-06-30 23:43:50,821 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '064fb2ba-04e7-457e-b572-1a41f30da7dd', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '316'})
+2024-06-30 23:43:50,822 - root - INFO - Params: 
+2024-06-30 23:43:50,823 - root - INFO - Body: b'{\r\n  "name": "111111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:43:50,828 - root - INFO - Response: 200
+2024-06-30 23:44:07,050 - root - INFO - Request: DELETE http://127.0.0.1:9527/api/v1/interface_info/2
+2024-06-30 23:44:07,051 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '51571efb-c6d8-49ad-a09f-c1bc3bf60c5a', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '316'})
+2024-06-30 23:44:07,051 - root - INFO - Params: 
+2024-06-30 23:44:07,052 - root - INFO - Body: b'{\r\n  "name": "111111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:44:07,064 - root - INFO - Response: 200
+2024-06-30 23:44:19,493 - root - INFO - Request: DELETE http://127.0.0.1:9527/api/v1/interface_info/3
+2024-06-30 23:44:19,493 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '823b16bb-4913-413c-ba14-3359faa6e1cf', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '310'})
+2024-06-30 23:44:19,494 - root - INFO - Params: 
+2024-06-30 23:44:19,494 - root - INFO - Body: b'{\r\n  "name": "333333",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:44:19,503 - root - INFO - Response: 200
+2024-06-30 23:44:36,971 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info
+2024-06-30 23:44:36,971 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a06c4e12-b057-4adc-a646-24f4c889bf84', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '314'})
+2024-06-30 23:44:36,972 - root - INFO - Params: 
+2024-06-30 23:44:36,973 - root - INFO - Body: b'{\r\n  "name": "1111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:44:36,973 - root - INFO - Response: 307
+2024-06-30 23:44:36,980 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/interface_info/
+2024-06-30 23:44:36,980 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a06c4e12-b057-4adc-a646-24f4c889bf84', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '314', 'referer': 'http://127.0.0.1:9527/api/v1/interface_info', 'host': '127.0.0.1:9527'})
+2024-06-30 23:44:36,981 - root - INFO - Params: 
+2024-06-30 23:44:36,982 - root - INFO - Body: b'{\r\n  "name": "1111111111",\r\n  "description": "123",\r\n  "url": "123",\r\n  "requestParams": "123",\r\n  "requestHeader": "123",\r\n  "responseHeader": "123",\r\n  "status": 0,\r\n  "method": "123",\r\n  "userId": 0,\r\n  "createTime": "2024-06-30T12:45:10.634Z",\r\n  "updateTime": "2024-06-30T12:45:10.634Z",\r\n  "isDelete":true\r\n}'
+2024-06-30 23:44:36,997 - root - INFO - Response: 200
+2024-06-30 23:45:05,987 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:45:05,988 - root - INFO - Header: Headers({'host': '127.0.0.1:9527', 'connection': 'keep-alive', 'content-length': '194', 'sec-ch-ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"', 'accept': 'application/json', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36', 'sec-ch-ua-platform': '"Windows"', 'origin': 'http://127.0.0.1:9527', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:9527/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8', 'cookie': '_ga=GA1.1.30026808.1717254408; _ga_YFKNQX5E65=GS1.1.1717430212.1.1.1717430303.0.0.0'})
+2024-06-30 23:45:05,989 - root - INFO - Params: 
+2024-06-30 23:45:05,990 - root - INFO - Body: b'{\n  "userName": "string",\n  "userAccount": "string",\n  "userAvatar": "string",\n  "gender": 0,\n  "userRole": "user",\n  "accessKey": "string",\n  "secretKey": "string",\n  "userPassword": "string"\n}'
+2024-06-30 23:45:05,997 - root - ERROR - Exception: 1 validation error for UserBase
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.7/v/model_attributes_type
+2024-06-30 23:45:35,461 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:45:35,462 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '38bfe0d6-165f-4de6-a7a6-a702d47ff1c0', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '210'})
+2024-06-30 23:45:35,462 - root - INFO - Params: 
+2024-06-30 23:45:35,463 - root - INFO - Body: b'{\r\n  "userName": "22222222",\r\n  "userAccount": "222222222",\r\n  "userAvatar": "2222222",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "222222",\r\n  "secretKey": "2222222",\r\n  "userPassword": "222222"\r\n}'
+2024-06-30 23:45:35,473 - root - ERROR - Exception: 1 validation error for UserBase
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.7/v/model_attributes_type
+2024-06-30 23:46:34,888 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:46:34,888 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '57700d06-9295-4b84-b988-4bf2b74e11a6', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+2024-06-30 23:46:34,889 - root - INFO - Params: 
+2024-06-30 23:46:34,890 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:46:34,896 - root - ERROR - Exception: 1 validation error for UserBase
+  Input should be a valid dictionary or object to extract fields from [type=model_attributes_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.7/v/model_attributes_type
+2024-06-30 23:50:57,922 - root - INFO - 服务启动...
+2024-06-30 23:51:00,947 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:51:00,948 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'cb659c41-02b4-4804-be47-13405eb631ad', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+2024-06-30 23:51:00,948 - root - INFO - Params: 
+2024-06-30 23:51:00,950 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:52:01,977 - root - INFO - 服务启动...
+2024-06-30 23:52:04,129 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:52:04,130 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '219275f0-aa82-4975-8a71-8808048120af', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+2024-06-30 23:52:04,130 - root - INFO - Params: 
+2024-06-30 23:52:04,131 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:52:04,151 - root - ERROR - Exception: create_user() missing 1 required positional argument: 'user'
+2024-06-30 23:52:35,230 - root - INFO - 服务启动...
+2024-06-30 23:52:37,737 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:52:37,738 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '5481908b-1fd5-422a-9680-4392106f8fed', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+2024-06-30 23:52:37,738 - root - INFO - Params: 
+2024-06-30 23:52:37,739 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:52:37,766 - root - ERROR - Exception: 'NoneType' object has no attribute 'dict'
+2024-06-30 23:53:19,810 - root - INFO - 服务启动...
+2024-06-30 23:53:22,314 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-06-30 23:53:22,315 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYyNDE3fQ.zuwRSrJMFee_kiHnh4AYuXImJJN0XGp2bYK8zQHsbZI', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'b27fbd65-0546-4546-92a7-b20ce725b96d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '194'})
+2024-06-30 23:53:22,316 - root - INFO - Params: 
+2024-06-30 23:53:22,316 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:53:22,356 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 23:53:22,593 - root - INFO - Response: 200
+2024-06-30 23:53:46,885 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 23:53:46,886 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'f6218ce6-d150-40a9-af44-70767a94189a', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-06-30 23:53:46,886 - root - INFO - Params: 
+2024-06-30 23:53:46,887 - root - INFO - Body: b'username=kuli&password=123456'
+2024-06-30 23:53:47,102 - root - INFO - Response: 200
+2024-06-30 23:53:58,106 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-06-30 23:53:58,107 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a54c4256-8f1b-423f-bc53-3d67f5eac030', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-06-30 23:53:58,108 - root - INFO - Params: 
+2024-06-30 23:53:58,108 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:53:58,126 - root - INFO - Response: 200
+2024-06-30 23:54:13,173 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/2
+2024-06-30 23:54:13,174 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '13312b38-e501-4531-be4c-dca472e9f4a9', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-06-30 23:54:13,175 - root - INFO - Params: 
+2024-06-30 23:54:13,175 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:54:13,180 - root - INFO - Response: 200
+2024-06-30 23:54:28,619 - root - INFO - Request: DELETE http://127.0.0.1:9527/api/v1/users/2
+2024-06-30 23:54:28,619 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '9eb33ea8-128a-4a70-bc16-f3d9a3a15901', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-06-30 23:54:28,620 - root - INFO - Params: 
+2024-06-30 23:54:28,620 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:54:28,633 - root - INFO - Response: 200
+2024-06-30 23:55:06,705 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-06-30 23:55:06,706 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '7bed7581-e49a-463b-8ae6-1c2ad149ed7e', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '28'})
+2024-06-30 23:55:06,706 - root - INFO - Params: 
+2024-06-30 23:55:06,707 - root - INFO - Body: b'username=tps&password=123456'
+2024-06-30 23:55:06,714 - root - ERROR - Exception: hash could not be identified
+2024-06-30 23:57:55,708 - root - INFO - 服务启动...
+2024-06-30 23:58:16,694 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-06-30 23:58:16,695 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '330712aa-054e-4a62-a35a-9cf802ede158', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-06-30 23:58:16,696 - root - INFO - Params: 
+2024-06-30 23:58:16,696 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:58:16,702 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 23:58:16,958 - root - INFO - Response: 200
+2024-06-30 23:58:26,710 - root - INFO - 服务启动...
+2024-06-30 23:58:30,313 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-06-30 23:58:30,313 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'f6663b93-bfd8-4d5f-b595-6eb84fe2a4d0', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-06-30 23:58:30,314 - root - INFO - Params: 
+2024-06-30 23:58:30,314 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-06-30 23:58:30,320 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-06-30 23:58:30,596 - root - INFO - Response: 200

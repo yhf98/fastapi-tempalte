@@ -1,0 +1,101 @@
+2024-07-01 00:03:05,637 - root - INFO - 服务启动...
+2024-07-01 00:03:15,506 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-07-01 00:03:15,507 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'e5888d3b-212d-4af0-8c1a-5bed3e987ec9', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:03:15,507 - root - INFO - Params: 
+2024-07-01 00:03:15,508 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:03:15,513 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-01 00:03:15,733 - root - INFO - Response: 200
+2024-07-01 00:04:08,707 - root - INFO - 服务启动...
+2024-07-01 00:04:14,381 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-07-01 00:04:14,381 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'c6ef7a5b-c159-47d3-9312-07b232330564', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:04:14,381 - root - INFO - Params: 
+2024-07-01 00:04:14,383 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:04:14,389 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-01 00:04:14,609 - root - INFO - Response: 200
+2024-07-01 00:05:25,913 - root - INFO - 服务启动...
+2024-07-01 00:05:34,279 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-07-01 00:05:34,280 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '74436ae7-568d-4d39-99fe-7433c3a97585', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:05:34,281 - root - INFO - Params: 
+2024-07-01 00:05:34,281 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:05:34,287 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-01 00:05:34,524 - root - INFO - Response: 200
+2024-07-01 00:06:09,289 - root - INFO - 服务启动...
+2024-07-01 00:06:11,630 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/2
+2024-07-01 00:06:11,631 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '3b86b572-74f4-4e80-9117-d20851880fbe', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:06:11,632 - root - INFO - Params: 
+2024-07-01 00:06:11,633 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:06:11,642 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "E:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-01 00:06:11,935 - root - INFO - Response: 200
+2024-07-01 00:06:52,058 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-07-01 00:06:52,059 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '159fcee4-d894-4203-9036-c7cb4e4268fd', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '28'})
+2024-07-01 00:06:52,060 - root - INFO - Params: 
+2024-07-01 00:06:52,060 - root - INFO - Body: b'username=tps&password=123456'
+2024-07-01 00:06:52,066 - root - ERROR - Exception: hash could not be identified
+2024-07-01 00:07:07,454 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-07-01 00:07:07,455 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '62a42bc0-3cbc-4a32-91b3-752b326aca87', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-07-01 00:07:07,455 - root - INFO - Params: 
+2024-07-01 00:07:07,456 - root - INFO - Body: b'username=kuli&password=123456'
+2024-07-01 00:07:07,726 - root - INFO - Response: 200
+2024-07-01 00:07:59,804 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/
+2024-07-01 00:07:59,805 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '98c1a80c-0307-43f2-8eae-27dc8e89980d', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:07:59,806 - root - INFO - Params: 
+2024-07-01 00:07:59,806 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:07:59,807 - root - INFO - Response: 404
+2024-07-01 00:08:14,059 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-07-01 00:08:14,060 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '6f784fb1-3200-41b9-91c0-575acfc0e7ea', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'})
+2024-07-01 00:08:14,060 - root - INFO - Params: 
+2024-07-01 00:08:14,061 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "tps",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:08:14,068 - root - INFO - Response: 200
+2024-07-01 00:08:25,663 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/register
+2024-07-01 00:08:25,663 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJrdWxpIiwiZXhwIjoxNzE5NzYzNzI3fQ.qGGBHrca_C5x3xkolvUn7KEBs6yKaJXhMa3vyA9W4zM', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a4bf8b76-1e7d-4650-bb03-2c4196bcc982', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '198'})
+2024-07-01 00:08:25,664 - root - INFO - Params: 
+2024-07-01 00:08:25,665 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xb1\xa4\xe6\x99\xae\xe6\xa3\xae-2",\r\n  "userAccount": "green",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:08:25,904 - root - INFO - Response: 200
+2024-07-01 00:08:38,246 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-07-01 00:08:38,247 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '2204e403-2db3-4dab-9642-cfaf9a4e43f1', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '29'})
+2024-07-01 00:08:38,248 - root - INFO - Params: 
+2024-07-01 00:08:38,248 - root - INFO - Body: b'username=kuli&password=123456'
+2024-07-01 00:08:38,483 - root - INFO - Response: 200
+2024-07-01 00:08:48,140 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-07-01 00:08:48,141 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '7a6c04c4-2e24-431e-a89e-4a789fcf663b', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '30'})
+2024-07-01 00:08:48,141 - root - INFO - Params: 
+2024-07-01 00:08:48,142 - root - INFO - Body: b'username=green&password=123456'
+2024-07-01 00:08:48,373 - root - INFO - Response: 200
+2024-07-01 00:09:03,045 - root - INFO - Request: POST http://127.0.0.1:9527/api/v1/users/login
+2024-07-01 00:09:03,046 - root - INFO - Header: Headers({'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '7fbd9b28-b01b-4222-884c-b6c5b8f5b07f', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-type': 'application/x-www-form-urlencoded', 'content-length': '28'})
+2024-07-01 00:09:03,047 - root - INFO - Params: 
+2024-07-01 00:09:03,048 - root - INFO - Body: b'username=tps&password=123456'
+2024-07-01 00:09:03,278 - root - INFO - Response: 200
+2024-07-01 00:12:27,305 - root - INFO - 服务启动...
+2024-07-01 00:12:38,978 - root - INFO - 服务启动...
+2024-07-01 00:14:55,880 - root - INFO - Request: GET http://127.0.0.1:9527/api/v1/users/3
+2024-07-01 00:14:55,881 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0cHMiLCJleHAiOjE3MTk3NjQ2NDN9.piB2vSPQD87U5a4huYfCnu_ig4wuhRuRF1b-1hD1B_8', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': 'a8dcaf55-1691-4663-83f2-7a00e6d3ff21', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '193'})
+2024-07-01 00:14:55,882 - root - INFO - Params: 
+2024-07-01 00:14:55,883 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xa0\xbc\xe6\x9e\x97",\r\n  "userAccount": "green",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:14:55,897 - root - INFO - Response: 200
+2024-07-01 00:15:06,468 - root - INFO - Request: PUT http://127.0.0.1:9527/api/v1/users/3
+2024-07-01 00:15:06,469 - root - INFO - Header: Headers({'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0cHMiLCJleHAiOjE3MTk3NjQ2NDN9.piB2vSPQD87U5a4huYfCnu_ig4wuhRuRF1b-1hD1B_8', 'user-agent': 'PostmanRuntime/7.39.0', 'accept': '*/*', 'postman-token': '94d571be-1414-4f3f-9320-51746a2ec8e8', 'host': '127.0.0.1:9527', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '193'})
+2024-07-01 00:15:06,469 - root - INFO - Params: 
+2024-07-01 00:15:06,470 - root - INFO - Body: b'{\r\n  "userName": "\xe6\xa0\xbc\xe6\x9e\x97",\r\n  "userAccount": "green",\r\n  "userAvatar": "123123123",\r\n  "gender": 0,\r\n  "userRole": "user",\r\n  "accessKey": "",\r\n  "secretKey": "",\r\n  "userPassword": "123456"\r\n}'
+2024-07-01 00:15:06,483 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "e:\fastapi-template\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2024-07-01 00:15:06,758 - root - INFO - Response: 200
